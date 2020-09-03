@@ -1,0 +1,75 @@
+
+html {
+  font-family: "Gill Sans", Calibri, Verdana, sans-serif;
+  font-size: 20px;
+}
+#header {
+  margin-left: 12px;
+  margin-top: 0;
+  padding: 10px;
+  font-size: 25px;
+  border-top: 2px dashed black;
+  border-bottom: 2px dashed black;
+  
+}
+/* The sidebar menu */
+#navbar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-right: 2px black solid;
+}
+/* The navigation menu links */
+#navbar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: block; 
+}
+#navbar a:hover {
+  color: green;
+  font-weight: bold;
+   
+}
+/* Style page content */
+#main-doc {
+  margin-left: 250px; 
+  margin-right: 120px;
+  padding: 10px 10px;
+}
+#introduction,
+#what_you_should_already_know,
+#javascript_and_java,
+#hello_world,
+#variables,
+#declaring_variables,
+#variable_scope,
+#global_variables,
+#constants,
+#data_types,
+#if_else_statement,
+#while_statement,
+#function_declarations,
+#reference
+{
+  font-weight: bold;
+  font-size: 30px;
+}
+#code { 
+  
+  font-size: 17px;
+  margin-left: 70px;
+  background-color: rgb(245, 240, 240);
+  padding: 10px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  #navbar {padding-top: 15px;}
+  #navbar a {font-size: 18px;}
+}
